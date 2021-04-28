@@ -1,4 +1,4 @@
-aacencoder
+mp3encoder
 =============
 ### Helper module to encode ulaw to aac for node.js
 
@@ -9,7 +9,7 @@ Installation
 Install with `npm`:
 
 ``` bash
-$ npm install aacencoder
+$ npm install mp3encoder
 ```
 
 Or add it to the `"dependencies"` section of your _package.json_ file.
@@ -21,7 +21,7 @@ Example
 `require()`ing the proper bindings file for the current node version, platform
 and architecture is as simple as:
 
-var fdpassing = require('bindings')('aacencoder.node')
+var fdpassing = require('bindings')('mp3encoder.node')
 
 
 License
@@ -49,4 +49,4 @@ IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY
 CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,
 TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
 SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
-# aacencoder
+# mp3encoder
