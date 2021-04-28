@@ -1,0 +1,29 @@
+{
+  "name": "mp3encoder",
+  "version": "0.2.0",
+  "description": "Node.js mp3encoder addon",
+  "main": "index.js",
+  "dependencies": {
+    "bindings": "~1.5.0"
+  },
+  "scripts": {
+    "test": "node mp3encoder.js",
+    "install": "node-gyp rebuild"
+  },
+  "gypfile": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hungchenchang/mp3encoder.git"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hungchenchang/mp3encoder/issues"
+  },
+  "homepage": "https://github.com/hungchenchang/mp3encoder#readme",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "devDependencies": {},
+  "author": "Steven Chang"
+}
